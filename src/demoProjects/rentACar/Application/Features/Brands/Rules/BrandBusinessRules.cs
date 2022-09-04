@@ -9,7 +9,6 @@ namespace Application.Features.Brands.Rules
     {
         private readonly IBrandRepository _brandRepository;
 
-
         public BrandBusinessRules(IBrandRepository brandRepository)
         {
             _brandRepository = brandRepository;
@@ -18,7 +17,12 @@ namespace Application.Features.Brands.Rules
         public async Task BrandNameCanNotBeDuplicatedWhenInserted(string name)
         {
             IPaginate<Brand> result = await _brandRepository.GetListAsync(b => b.Name == name);
-            if (result.Items.Any()) throw new BusinessException("SomeFeatureEntity name exists.");
+            if (result.Items.Any()) throw new BusinessException("Brand name exists.");
+        }
+
+        public void BrandShouldExistWhenRequested(Brand brand)
+        {
+            if (brand == null) throw new BusinessException("Requested brand does not exist");
         }
     }
 }
