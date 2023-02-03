@@ -1,15 +1,15 @@
-#nArchitecture
+# nArchitecture
 nArchitecture, .NET Core ile geliştirilmiş bir mimari örneğidir. Bu proje, .NET Core uygulamaları için bir mimari örneği sunmak amacıyla oluşturulmuştur.
 
-##Kurulum
+## Kurulum
 Projeyi GitHub üzerinden indirin veya klonlayın.
 src/nArchitecture.sln dosyasını açın.
 Projeyi derleyin ve çalıştırın.
-##Kullanım
+## Kullanım
 Proje, .NET Core uygulamaları için bir mimari örneği sunmaktadır. Kendi projenize uyarlayarak kullanabilirsiniz.
 
-##Katkı
-Bu projeye katkıda bulunmak için buraya tıklayın veya projeyi fork ederek kendinize ait bir çatalla düzenleyin ve pull request gönderin.
+## Katkı
+Bu projeye katkıda bulunmak için [buraya] -https://github.com/atillakalay/nArchitecture/pulls tıklayın veya projeyi fork ederek kendinize ait bir çatalla düzenleyin ve pull request gönderin.
 
-##Lisans
+## Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
