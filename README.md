@@ -9,7 +9,7 @@ Projeyi derleyin ve çalıştırın.
 Proje, .NET Core uygulamaları için bir mimari örneği sunmaktadır. Kendi projenize uyarlayarak kullanabilirsiniz.
 
 ## Katkı
-Bu projeye katkıda bulunmak için [buraya] -https://github.com/atillakalay/nArchitecture/pulls tıklayın veya projeyi fork ederek kendinize ait bir çatalla düzenleyin ve pull request gönderin.
+Bu projeye katkıda bulunmak için buraya [https://github.com/atillakalay/nArchitecture/pulls] tıklayın veya projeyi fork ederek kendinize ait bir çatalla düzenleyin ve pull request gönderin.
 
 ## Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
